@@ -1,4 +1,3 @@
-package Array_Structure;
 
 public class collection {
     public static void main(String[] args) {
