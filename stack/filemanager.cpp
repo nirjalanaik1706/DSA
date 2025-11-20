@@ -2,7 +2,7 @@
 class FileManager
 {
 public:
-    bool serialize(Shelf theshelf)
+    bool serialize(Shelf theshelf)i
     {
         bool status = false;
         ofstream outfile("shelf.txt");

@@ -21,7 +21,6 @@ public class LinkedList {
     }
 
     public void search(int data) {
-        // logic
         Node current = head;
         int pos = 1;
 
@@ -38,13 +37,11 @@ public class LinkedList {
     }
 
     public void remove(int data) {
-        // logic
         if (head == null) {
             System.out.println("List is empty");
             return;
         }
 
-        // Removing head node
         if (head.data == data) {
             head = head.next;
             System.out.println("Removed: " + data);
