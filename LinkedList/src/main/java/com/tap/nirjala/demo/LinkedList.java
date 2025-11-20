@@ -22,22 +22,26 @@ public class LinkedList {
         }
 
         Node current = startNode;
-        while (current.next != null) {
+        while (current.next != null) 
+        {
             current = current.next;
         }
         current.next = newNode;
     }
 
-    public void delete(int data) {
+    public void delete(int data) 
+    {
         if (startNode == null) return;
 
-        if (startNode.data == data) {
+        if (startNode.data == data) 
+        {
             startNode = startNode.next;
             return;
         }
 
         Node current = startNode;
-        while (current.next != null) {
+        while (current.next != null) 
+        {
             if (current.next.data == data) {
                 current.next = current.next.next;
                 return;
@@ -46,7 +50,8 @@ public class LinkedList {
         }
     }
 
-    public void search(int data) {
+    public void search(int data) 
+    {
         Node current = startNode;
         int position = 1;
         while (current != null) {
@@ -60,7 +65,8 @@ public class LinkedList {
         System.out.println("Data " + data + " not found in the list.");
     }
 
-    public void display() {
+    public void display() 
+    {
         System.out.println("------------------------------------------------");
         Node current = startNode;
         while (current != null) {
