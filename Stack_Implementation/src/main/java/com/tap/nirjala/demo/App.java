@@ -5,11 +5,12 @@ public class App
     {
         Shelf shelf1=new Shelf();
 
-        Books book1=new Books("Narayan Murti", "A Bettter India ,A Better World");
-        Books book2=new Books("APJ Kalam","Wings of Fire");
-        Books book3=new Books("Achyut Godbole","Infotech");
-        Books book4=new Books("Nandan Nilekani","Imagining India");
-        Books book5=new Books("BR Ambedkar","Buddha and his Dhamma");
+        Books book1 = new Books("Yuval Noah Harari", "Sapiens: A Brief History of Humankind");
+        Books book2 = new Books("James Clear", "Atomic Habits");
+        Books book3 = new Books("George Orwell", "1984");
+        Books book4 = new Books("Robin Sharma", "The Monk Who Sold His Ferrari");
+        Books book5 = new Books("Walter Isaacson", "Steve Jobs");
+
 
         shelf1.push(book1);
         shelf1.push(book2);
