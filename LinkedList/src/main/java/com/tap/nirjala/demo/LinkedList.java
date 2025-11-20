@@ -7,11 +7,13 @@ public class LinkedList {
         startNode = null;
     }
 
-    public LinkedList(int data) {
+    public LinkedList(int data) 
+    {
         startNode = new Node(data);
     }
 
-    public void insert(int data) {
+    public void insert(int data) 
+    {
         Node newNode = new Node(data);
 
         if (startNode == null) {
