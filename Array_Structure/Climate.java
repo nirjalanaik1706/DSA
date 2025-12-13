@@ -40,6 +40,10 @@ public class Climate {
                         farm[r][c].soilMoisture);
             }
             System.out.println("\n");
+            System.out.println("\n");
+            System.out.println("\n");
+            System.out.println("\n");
+            System.out.println("\n");
         }
     }
 }
